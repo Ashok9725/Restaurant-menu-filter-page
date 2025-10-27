@@ -13,21 +13,6 @@ This project demonstrates how to use basic web technologies to design a beautifu
 - To implement **category filtering** without page reload using JavaScript.
 
 ---
-
-## 🧱 **Project Structure**
-
-restaurant-menu/
-│
-├── index.html # Main HTML structure
-├── css/
-│ └── styles.css # Styles for layout and design
-├── js/
-│ └── script.js # Filtering and dynamic content
-└── images/ # (Optional) Custom image folder if you host locally
-
-
----
-
 ## ✨ **Features**
 
 ✅ Responsive and mobile-friendly design  
@@ -54,35 +39,26 @@ restaurant-menu/
 ## ⚙️ **How to Run the Project**
 
 1. **Clone this repository**
-   ```bash
    git clone https://github.com/<your-username>/restaurant-menu.git
-Open the project folder
-
-Copy code
+**Open the project folder:**
 cd restaurant-menu
-Run the project
+**Run the project:**
 
 Simply open index.html in your web browser.
 
-🧩 Project Highlights
+🧩 **Project Highlights:**
 Includes 4 main menu categories with 5 items each.
-
 All images are tested from Unsplash and display properly.
-
 JavaScript dynamically filters items based on category selection.
-
 Clean UI and consistent visual theme using Bootstrap and custom CSS.
 
-🚀 Future Enhancements
+🚀 **Future Enhancements:**
 Add search bar to filter menu items by name.
-
 Include "Add to Cart" or "Order Now" button for each item.
-
 Integrate a backend (Node.js + Express) for real restaurant data.
-
 Add animations with Framer Motion or GSAP for advanced effects.
 
 
- License
+**license**
 This project is open source and available under the MIT License.
 
