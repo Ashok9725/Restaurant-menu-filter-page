@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gourmet Haven | Menu</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="text-center p-4 bg-dark text-white">
+    <h1>Gourmet Haven</h1>
+    <p>Delight in Every Bite 🍴</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center justify-content-center text-center">
+    <div>
+      <h2>Welcome to Our Restaurant</h2>
+      <p>Explore our delicious menu and treat yourself today!</p>
+      <a href="#menu" class="btn btn-primary mt-3">View Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Categories -->
+  <section id="menu" class="container my-5 text-center">
+    <h2 class="mb-4">Our Menu</h2>
+    <div class="mb-4">
+      <button class="btn btn-outline-dark filter-btn" data-category="all">All</button>
+      <button class="btn btn-outline-dark filter-btn" data-category="appetizer">Appetizers</button>
+      <button class="btn btn-outline-dark filter-btn" data-category="main">Main Courses</button>
+      <button class="btn btn-outline-dark filter-btn" data-category="dessert">Desserts</button>
+      <button class="btn btn-outline-dark filter-btn" data-category="beverage">Beverages</button>
+    </div>
+
+    <div class="row" id="menu-items">
+      <!-- Menu items will be inserted dynamically by JavaScript -->
+    </div>
+  </section>
+
+  <!-- External JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
